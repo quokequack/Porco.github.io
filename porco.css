@@ -1,0 +1,135 @@
+<style>
+      *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    justify-content:center;
+  }
+  body{
+    background:linear-gradient(to bottom, #273c75,#dff9fb);
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify content:center;
+  }
+  .profile-card{
+    width:400px;
+    text-align:center;
+    border-radius:8px;
+    overflow:hidden;
+  }
+  .card-header{
+    background-image:linear-gradient(to top, #273c75,#7ed6df);
+    padding:60px 40px; 
+  }
+  .pic{
+    display:inline-block;
+    padding:6px;
+    background-image:linear-gradient(to left, #273c75,#c7ecee);
+    border-radius:50%;
+    margin:auto;
+    background-size:200% 200%;
+    animation:animated-gradient 2s linear infinite;
+  }
+  @keyframes animated-gradient{
+   25%{
+      background-position:right bottom;
+    }
+   50%{
+      background-position:left bottom;
+    }
+   75%{
+      background-position:right top;
+    }
+   100%{
+      background-position:left top;
+    }
+  }
+  .pic img{
+    display:block;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+  }
+  .name{
+    color:#ffffff;
+    font-family:"Trebuchet Ms", bold;
+    font-size:30px;
+  }
+  .arr{
+    color:#ffffff;
+    font-family:"Trebuchet Ms",sans-serif;
+    font-size:19px;
+  }
+    
+   .arr:hover{
+      color:#273c75;
+      transition:0s linear;
+      cursor:pointer;
+    }
+  .desc{
+    font-family:"Trebuchet Ms",sans-serif;
+    color:#273c75;
+  }
+  .sm{
+    display:flex;
+    justify-content:center;
+    margin:10px 0;
+  }
+  .sm a{
+    color:#ffffff;
+    font-size:20px;
+    width:50px;
+    transition:0s linear;
+  }
+  .sm a:hover{
+    color:#273c75;
+  }
+  .contact{
+    display:inline-block;
+    padding:12px 50px;
+    color:#273c75;
+    border:2px solid #273c75;
+    margin-top:10px;
+    font-family:"Trebuchet Ms",sans-serif;
+    transition:0s linear;
+    border-radius:20px;
+  }
+  .contact:hover{
+    color:#ffffff;
+    background:#273c75;
+  }
+  .numbers{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+  }
+  .item{
+    flex:1;
+    text-transform:uppercase;
+    color:#ffffff;
+    font-size:15px;
+    font-family:"Trebuchet Ms", sans-serif;
+  }
+  
+  .item span{
+    display:block;
+    color:#ffffff;
+  }
+  .border{
+    width:1px;
+    height:28px;
+    color:#ffffff;
+  }
+  .numbers{
+    padding:8px 15px;
+    color:#273c75;
+    border:2px solid #ffffff;
+    margin-top:10px;
+    font-family:"Trebuchet Ms",sans-serif;
+    transition:0s linear;
+    border-radius:20px;
+  }
+    </style>
